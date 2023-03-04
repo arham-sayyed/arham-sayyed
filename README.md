@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arham-sayyed" alt="arham-sayyed" /></a> </p>
 
-- 🔭 I’m currently working on **Quote Image Automation**
+- 🔭 I’m currently working on **Charlie voice assistive automation assistant**
 
 - 🌱 I’m currently learning **Python, Automation, Machine Learning & JS**
 
