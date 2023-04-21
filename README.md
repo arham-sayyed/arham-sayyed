@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Charlie, automation voice assistant**
 
-- 🌱 I’m currently learning **Machine Learning, Natural Language Processing [NLP], ML, AI**
+- 🌱 I’m currently learning **Machine Learning, Natural Language Processing [NLP], ML, AI kivy**
 
 - 👯 I’m looking to collaborate on **English to Hindi [Video Translation]**
 
