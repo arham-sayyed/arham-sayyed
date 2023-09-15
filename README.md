@@ -3,13 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arham-sayyed&label=Profile%20views&color=0e75b6&style=flat" alt="arham-sayyed" /> </p>
 
-- 🔭 I’m currently working on **Charlie, automation voice assistant**
+- 🔭 I’m currently working on **Web Development**
 
-- 🌱 I’m currently learning **Machine Learning, Natural Language Processing [NLP], ML, AI, Flutter**
+- 🌱 I’m currently learning **JS, Natural Language Processing [NLP], Flutter**
 
 - 👯 I’m looking to collaborate on **English to Hindi [Video Translation]**
 
-- 🤝 I’m can help you in **Python Automation, APIs, security**
+- 🤝 I can help you in **Python Automation, APIs, security**
 
 - 👨‍💻 All of my projects are available at [https://github.com/arham-sayyed](https://github.com/arham-sayyed)
 
