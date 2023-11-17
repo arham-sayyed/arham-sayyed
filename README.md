@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on **English to Hindi [Video Translation]**
 
-- 🤝 I can help you in **Python Automation, APIs, security**
+- 🤝 I can help you in **Python Automation, APIs, security, web development**
 
 - 👨‍💻 All of my projects are available at [https://github.com/arham-sayyed](https://github.com/arham-sayyed)
 
