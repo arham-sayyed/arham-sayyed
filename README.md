@@ -25,7 +25,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/arhamsayyed_dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="arhamsayyed_dev" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/www.linkedin.com/in/arham-sayyed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/arham-sayyed" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/arham-sayyed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/arham-sayyed" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/20869565" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="20869565" height="30" width="40" /></a>
 <a href="https://instagram.com/_thatguywearinghoodie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_thatguywearinghoodie" height="30" width="40" /></a>
 <a href="https://medium.com/@arhamsayyed56" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@arhamsayyed56" height="30" width="40" /></a>
