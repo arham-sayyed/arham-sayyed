@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Arham Sayyed</h1>
-<h3 align="center">A passionate self taught python & web developer from Mumbai, India</h3>
+<h3 align="center">A passionate self taught backend & API developer from Mumbai, India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arham-sayyed&label=Profile%20views&color=0e75b6&style=flat" alt="arham-sayyed" /> </p>
 <p align="left"> <a href="https://twitter.com/arhamsayyed_dev" target="blank"><img src="https://img.shields.io/twitter/follow/arhamsayyed_dev?logo=twitter&style=for-the-badge" alt="arhamsayyed_dev" /></a> </p>
