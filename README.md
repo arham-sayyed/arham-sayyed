@@ -24,7 +24,7 @@
 
 - ⚡ Fun fact **I love meeting new people & socialising 🫶**
 
-- > "Let's Build Incredibles ❤️‍🔥🚀"
+> "Let's Build Incredibles ❤️‍🔥🚀"
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
