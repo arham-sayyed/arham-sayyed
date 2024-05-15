@@ -4,23 +4,27 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arham-sayyed&label=Profile%20views&color=0e75b6&style=flat" alt="arham-sayyed" /> </p>
 <p align="left"> <a href="https://twitter.com/arhamsayyed_dev" target="blank"><img src="https://img.shields.io/twitter/follow/arhamsayyed_dev?logo=twitter&style=for-the-badge" alt="arhamsayyed_dev" /></a> </p>
 
-- 🔭 I’m currently working on **Web Development**
+- 🔭 I’m currently working on **Full Stack Development**
 
-- 🌱 I’m currently learning **NodeJS, Flutter**
+- 🌱 I’m currently learning **ReactJs, NodeJS**
 
-- 🤝 I’m looking for help with **UI Development**
+- 🤝 I’m looking for help with **Collaboration**
 
 - 👨‍💻 All of my projects are available at [https://github.com/arham-sayyed](https://github.com/arham-sayyed)
 
 - 📝 I regularly write articles on [https://twitter.com/arhamsayyed_dev](https://twitter.com/arhamsayyed_dev)
 
-- 💬 Ask me about **Python, Web Development, API Development, Security**
+- 💬 Ask me about **Python, Js, NodeJs, Web Development, API Development, Security**
 
 - 📫 How to reach me **arhamsayyed56@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/arham-sayyed/](https://www.linkedin.com/in/arham-sayyed/)
+- 🤔 Know about my experiences [https://www.linkedin.com/in/arham-sayyed/](https://www.linkedin.com/in/arham-sayyed/)
 
-- ⚡ Fun fact **I don't Give A Bug 🪲**
+<!-- - Check my [resume](https://github.com/arham-sayyed/resume) -->
+
+- ⚡ Fun fact **I love meeting new people & socialising 🫶**
+
+- > "Let's Build Incredibles ❤️‍🔥🚀"
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
