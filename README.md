@@ -25,7 +25,8 @@
 - 📝 I regularly write articles on [https://twitter.com/arhamsayyed_dev](https://twitter.com/arhamsayyed_dev) 
 - 💬 Ask me about **MERN Stack, Python, APIs & Cyber Seccurity**
 - 📫 How to reach me **arhamsayyed56@gmail.com** 
-- 📄 Know about my experiences [https://www.linkedin.com/in/arham-sayyed/](https://www.linkedin.com/in/arham-sayyed/)
+- 📄  My Resume: [github.com/arham-sayyed/resume](https://github.com/arham-sayyed/resume)  
+- 👓 Know about my experiences [https://www.linkedin.com/in/arham-sayyed/](https://www.linkedin.com/in/arham-sayyed/)
 - ⚡ Fun fact **I love meeting new people & socialising**
 
 <h3 align="left">Connect with me:</h3>
