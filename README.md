@@ -23,11 +23,12 @@
 - 🤝 I’m looking for help with **Building a Community** 
 - 👨‍💻 All of my projects are available at [https://github.com/arham-sayyed](https://github.com/arham-sayyed) 
 - 📝 I regularly write articles on [https://twitter.com/arhamsayyed_dev](https://twitter.com/arhamsayyed_dev) 
-- 💬 Ask me about **MERN Stack, Python, APIs & Cyber Seccurity**
+- 💬 Ask me about **MERN Stack, Python, APIs & Cyber Security**
 - 📫 How to reach me **arhamsayyed56@gmail.com** 
 - 📄  My Resume: [github.com/arham-sayyed/resume](https://github.com/arham-sayyed/resume)  
 - 👓 Know about my experiences [https://www.linkedin.com/in/arham-sayyed/](https://www.linkedin.com/in/arham-sayyed/)
 - ⚡ Fun fact **I love meeting new people & socialising**
+- 🌐 Check out a few works from my portfolio at [**buildincredibles.com**](https://www.buildincredibles.com/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
