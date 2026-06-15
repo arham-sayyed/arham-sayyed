@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7A5AF8&center=true&vCenter=true&random=false&width=650&lines=Hey+there%2C+I'm+Arham+%F0%9F%91%8B;MERN+Stack+Developer;Security+Enthusiast;Building+cool+stuff+from+Mumbai+%F0%9F%87%AE%F0%9F%87%B3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=7A5AF8&center=true&vCenter=true&random=false&width=750&lines=Hey+there%2C+I'm+Arham+Sayyed+%F0%9F%91%8B;MERN+Stack+Developer;Security+Enthusiast;Building+cool+stuff+from+Mumbai+%F0%9F%87%AE%F0%9F%87%B3)](https://git.io/typing-svg)
 
 <br/>
 
@@ -66,13 +66,13 @@
 
 ---
 
-<div align="center">
+<!-- <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=arham-sayyed&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
----
+--- -->
 
 <div align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=arham-sayyed&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
