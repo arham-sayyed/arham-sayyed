@@ -13,6 +13,7 @@
 ---
 
 - 🔭 Currently building **AI Automated Blog Site**
+- 🚀 Just open-sourced **[AutoJob](https://github.com/arham-sayyed/autojob)**  an AI-powered job-search automation pipeline
 - 🌱 Learning **React Native**
 - 👨‍💻 Selected projects on [github.com/arham-sayyed](https://github.com/arham-sayyed) — the good stuff ships elsewhere
 - 💬 Ask me about **MERN Stack, TypeScript, APIs & Cyber Security**
