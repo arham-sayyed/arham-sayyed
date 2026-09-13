@@ -67,6 +67,31 @@
 
 ---
 
+## ♟️ Play Chess With Me
+
+Anyone can make a move. Click a link below — it opens a pre-filled GitHub Issue. Just hit **Submit** and the bot plays it in seconds.
+
+📜 [View the leaderboard](leaderboard.md) — every game ever played, with the White/Black rosters and final result.
+
+![Chess Board](chess/board.svg)
+
+<!-- CHESS_START -->
+
+**White ♙ to move** — click any move to play it:
+
+
+[a3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20a2a3&body=Playing+a2a3+%28a3%29) · [a4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20a2a4&body=Playing+a2a4+%28a4%29) · [b3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20b2b3&body=Playing+b2b3+%28b3%29) · [b4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20b2b4&body=Playing+b2b4+%28b4%29) · [c3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20c2c3&body=Playing+c2c3+%28c3%29) · [c4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20c2c4&body=Playing+c2c4+%28c4%29) · [d3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20d2d3&body=Playing+d2d3+%28d3%29) · [d4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20d2d4&body=Playing+d2d4+%28d4%29) · [e3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20e2e3&body=Playing+e2e3+%28e3%29) · [e4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20e2e4&body=Playing+e2e4+%28e4%29) · [f3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20f2f3&body=Playing+f2f3+%28f3%29) · [f4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20f2f4&body=Playing+f2f4+%28f4%29) · [g3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20g2g3&body=Playing+g2g3+%28g3%29) · [g4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20g2g4&body=Playing+g2g4+%28g4%29) · [h3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20h2h3&body=Playing+h2h3+%28h3%29) · [h4](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20h2h4&body=Playing+h2h4+%28h4%29)
+
+[Na3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20b1a3&body=Playing+b1a3+%28Na3%29) · [Nc3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20b1c3&body=Playing+b1c3+%28Nc3%29) · [Nf3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20g1f3&body=Playing+g1f3+%28Nf3%29) · [Nh3](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20g1h3&body=Playing+g1h3+%28Nh3%29)
+
+
+---
+[🔄 Reset board](https://github.com/arham-sayyed/arham-sayyed/issues/new?title=chess%3A%20reset&body=Resetting+the+board)
+
+<!-- CHESS_END -->
+
+---
+
 <!-- <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=arham-sayyed&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)

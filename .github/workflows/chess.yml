@@ -1,0 +1,118 @@
+name: ♟️ Chess
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      move:
+        description: 'UCI move (e.g. e2e4) or "reset" to start fresh'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: chess-game
+  cancel-in-progress: false
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      startsWith(github.event.issue.title, 'chess:')
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install chess library
+        run: pip install chess
+
+      - name: Parse move
+        id: move
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_MOVE: ${{ github.event.inputs.move }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          DISPATCH_AUTHOR: ${{ github.actor }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            MOVE="$DISPATCH_MOVE"
+            AUTHOR="$DISPATCH_AUTHOR"
+          else
+            MOVE=$(echo "$ISSUE_TITLE" | sed -E 's/^chess:[[:space:]]*//' | tr -d ' ')
+            AUTHOR="$ISSUE_AUTHOR"
+          fi
+          echo "move=$MOVE" >> "$GITHUB_OUTPUT"
+          echo "author=$AUTHOR" >> "$GITHUB_OUTPUT"
+
+      - name: Process move
+        id: result
+        env:
+          MOVE: ${{ steps.move.outputs.move }}
+          AUTHOR: ${{ steps.move.outputs.author }}
+        run: |
+          if OUTPUT=$(python chess/play.py "$MOVE" "$AUTHOR" 2>&1); then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "$OUTPUT"
+          REASON=$(printf '%s\n' "$OUTPUT" | grep -o 'REASON:[A-Za-z0-9_:]*' | tail -n1 || true)
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+
+      - name: Commit if valid
+        if: steps.result.outputs.ok == 'true'
+        env:
+          MOVE: ${{ steps.move.outputs.move }}
+        run: |
+          git config user.name  "chess-bot"
+          git config user.email "chess-bot@users.noreply.github.com"
+          git add chess/ README.md leaderboard.md
+          git diff --staged --quiet || git commit -m "♟️ $MOVE"
+          git push
+
+      - name: Comment and close issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        env:
+          MOVE: ${{ steps.move.outputs.move }}
+          MOVE_OK: ${{ steps.result.outputs.ok }}
+          REASON: ${{ steps.result.outputs.reason }}
+        with:
+          script: |
+            const ok     = process.env.MOVE_OK === 'true';
+            const move   = process.env.MOVE;
+            const reason = process.env.REASON || '';
+            const url    = `https://github.com/${{ github.repository }}#%EF%B8%8F-play-chess-with-me`;
+
+            let body;
+            if (ok) {
+              body = `♟️ Move **${move}** played! [→ View the updated board](${url})`;
+            } else if (reason.startsWith('REASON:reset_blocked')) {
+              body = `🚫 The current game is still **in progress** — reset only works once it's finished. [→ See the board](${url})`;
+            } else if (reason.startsWith('REASON:cooldown')) {
+              const secs = reason.split(':')[2] || 'a bit';
+              body = `⏳ You're on cooldown — please wait **${secs}s** before playing again. [→ See the board](${url})`;
+            } else {
+              body = `❌ **${move}** is not a legal move in the current position. [→ See available moves](${url})`;
+            }
+
+            await github.rest.issues.createComment({
+              ...context.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+            await github.rest.issues.update({
+              ...context.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+            });
