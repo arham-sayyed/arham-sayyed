@@ -6,7 +6,7 @@
 ![Board](chess/board.svg)
 
 **White** ♙
-*(no moves yet)*
+`[arham-sayyed](https://github.com/arham-sayyed)`
 
 --- VS ---
 
