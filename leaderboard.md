@@ -11,6 +11,6 @@
 --- VS ---
 
 **Black** ♟
-*(no moves yet)*
+`[arham-sayyed](https://github.com/arham-sayyed)`
 
 ---
