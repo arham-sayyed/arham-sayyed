@@ -1,5 +1,5 @@
 {
-  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+  "fen": "rnbqkbnr/pppp1ppp/8/4P3/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2",
   "moves": [
     {
       "uci": "d2d4",
@@ -12,6 +12,12 @@
       "san": "e5",
       "by": "arham-sayyed",
       "at": "2026-09-14T00:00:33.542640+00:00"
+    },
+    {
+      "uci": "d4e5",
+      "san": "dxe5",
+      "by": "arham-sayyed",
+      "at": "2026-09-27T15:11:55.211495+00:00"
     }
   ],
   "status": "active",
